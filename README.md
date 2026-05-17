@@ -27,22 +27,6 @@ SettingValueNameUbuntu-22.04-WazuhTypeLinuxVersionUbuntu (64-bit)Base Memory4096
 
 Click Finish to create the VM.
 
-1.2 Attach the Ubuntu ISO
-
-Select your new VM and click Settings → Storage.
-Under Controller: IDE, click the Empty optical drive.
-Click the disc icon on the right → Choose a disk file…
-Browse to your downloaded ubuntu-22.04-live-server-amd64.iso and click Open.
-Click OK to save.
-
-1.3 Configure Network Adapter
-
-Go to Settings → Network → Adapter 1.
-Set Attached to: Bridged Adapter.
-Select your host's active network interface from the Name dropdown.
-Click OK.
-
-
 [!TIP]
 Bridged Adapter places your VM on the same network as your host, which is required for PuTTY remote access.
 
@@ -67,16 +51,18 @@ Profile Setup:
 
 SSH Setup: ✅ Check Install OpenSSH server — required for PuTTY access
 Featured Snaps: Skip (press Done)
+<img width="790" height="340" alt="Screenshot 2026-05-17 110031" src="https://github.com/user-attachments/assets/9cfdaa77-7712-4750-8c75-0a1c7143cce7" />
 
 
 Wait for installation to complete, then select Reboot Now.
-When prompted, remove the ISO: Devices → Optical Drives → Remove disk from virtual drive, then press Enter.
 
 
 Part 2 — Initial Ubuntu Configuration
 After the VM reboots, log in with your credentials and run the following commands.
+
 2.1 Update the System
-bashsudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
+
 2.2 Note Your IP Address
 baship a
 Look for your IP under the active interface (e.g., enp0s3). It will look like 192.168.x.x.
