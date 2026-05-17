@@ -161,7 +161,6 @@ This process typically takes **10–20 minutes** depending on your system speed 
 At the end of the installation, the installer prints the auto-generated credentials. Look for output similar to:
 
 <aside>
-<img src="/icons/code_gray.svg" alt="/icons/code_gray.svg" width="40px" />
 
 > INFO: --- Summary ---
 INFO: You can access the web interface https://<your-ip>
@@ -177,7 +176,7 @@ INFO: You can access the web interface https://<your-ip>
 > bash
 > 
 > <aside>
-> <img src="/icons/code_gray.svg" alt="/icons/code_gray.svg" width="40px" />
+> 
 > 
 > `sudo tar -O -xvf wazuh-install-files.tar wazuh-install-files/wazuh-passwords.txt`
 > 
