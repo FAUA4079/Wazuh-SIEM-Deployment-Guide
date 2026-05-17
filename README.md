@@ -169,6 +169,8 @@ INFO: You can access the web interface https://<your-ip>
 > 
 </aside>
 
+<img width="791" height="743" alt="image" src="https://github.com/user-attachments/assets/8a8c8a56-8fd1-4f70-971c-5c000df8cc29" />
+
 > [!IMPORTANT]
 **Copy and save these credentials immediately.** If you miss them, extract them with:
 > 
