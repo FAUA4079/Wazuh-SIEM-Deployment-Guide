@@ -1,27 +1,24 @@
-Ubuntu 22.04 VM Setup & Wazuh SIEM Deployment Guide
-
+Wazuh SIEM Deployment Guide
 A step-by-step guide to provisioning an Ubuntu 22.04 virtual machine, deploying the Wazuh security platform, and accessing the environment remotely via PuTTY.
 
 
 📋 Table of Contents
-
 Prerequisites
 Part 1 — Setting Up Ubuntu 22.04 in a VM
 Part 2 — Initial Ubuntu Configuration
 Part 3 — Deploying Wazuh
 Part 4 — Remote Access via PuTTY
-Troubleshooting
 
 
 Prerequisites
 Before you begin, ensure you have the following:
 RequirementDetailsHypervisorVirtualBox 7.x or VMware Workstation 17+Ubuntu ISOUbuntu 22.04.x LTS (Jammy Jellyfish)Host RAMMinimum 8 GB (16 GB recommended)Disk SpaceMinimum 50 GB free on hostPuTTYDownload PuTTY (Windows)InternetActive connection required
-
 [!NOTE]
 This guide uses VirtualBox as the hypervisor. Steps may differ slightly for VMware.
 
 
 Part 1 — Setting Up Ubuntu 22.04 in a VM
+
 1.1 Create a New Virtual Machine
 
 Open VirtualBox and click New.
